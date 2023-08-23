@@ -6,6 +6,9 @@ import React from "react";
 // }
 
 // hello with arrow function
-const FunctionalGretings = () => <h1>"hello arrowfunction"</h1>
+const FunctionalGretingsProps = (props) => {
+    console.log(props);
+    return <h1>Hello {props.greeting} i am {props.name}</h1>
+}
 
-export default FunctionalGretings;
+export default FunctionalGretingsProps;

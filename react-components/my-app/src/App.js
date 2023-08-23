@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import FunctionalGretings from './components/FunctionalGretings';
-
+import FunctionalGretingsProps from './components/FunctionalGretingsProps';
 
 function App() {
   return (
     <div className="App">
       <FunctionalGretings />
+      <FunctionalGretingsProps greeting="Nice to meet you!" name="my" />
     </div>
   );
 }
